@@ -1,0 +1,13 @@
+style: gitlab
+template: CHANGELOG.tpl.md
+info:
+  title: CHANGELOG
+  repository_url: "https://github.com/lucasberlang/gcp-cloud-storage"
+options:
+  header:
+    pattern: "^(.*)$"
+    pattern_maps:
+      - Subject
+  notes:
+    keywords:
+      - BREAKING CHANGE
